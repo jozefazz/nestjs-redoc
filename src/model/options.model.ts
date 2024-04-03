@@ -23,6 +23,7 @@ export const schema = (document: OpenAPIObject) =>
     expandResponses: Joi.string().optional(),
     requiredPropsFirst: Joi.boolean().optional().default(true),
     sortPropsAlphabetically: Joi.boolean().optional().default(true),
+    sortOperationsAlphabetically: Joi.boolean().optional().default(true),
     showExtensions: Joi.any().optional().default(false),
     noAutoAuth: Joi.boolean().optional().default(true),
     pathInMiddlePanel: Joi.boolean().optional().default(false),

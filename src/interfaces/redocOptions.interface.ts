@@ -24,6 +24,8 @@ export interface RedocOptions {
   requiredPropsFirst?: boolean;
   /** If set, propeties will be sorted alphabetically */
   sortPropsAlphabetically?: boolean;
+  /** If set, operations will be sorted alphabetically */
+  sortOperationsAlphabetically?: boolean;
   /** If set the fields starting with "x-" will be shown, can be a boolean or a string with names of extensions to display */
   showExtensions?: boolean | string;
   /** If set, redoc won't inject authentication section automatically */
